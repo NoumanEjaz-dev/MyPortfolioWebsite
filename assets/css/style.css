@@ -219,6 +219,12 @@ h1, h2, h3, h4, h5, h6 {
    background-position-y: 40%;
 }
 
+@media (max-width: 400px) {
+ #hero {
+     background-position-x: 70% !important;
+}
+
+
 #hero:before {
   content: "";
   background: rgba(5, 13, 24, 0.3);
@@ -237,6 +243,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: -140px;
 
 }
+
+@media (max-width: 400px) {
+ #hero .hero-container {
+  margin-left: 0px !important;
+}
+
+
 
 #hero h1 {
   margin: 0 0 10px 0;
