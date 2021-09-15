@@ -219,11 +219,11 @@ h1, h2, h3, h4, h5, h6 {
    background-position-y: 40%;
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
  #hero {
      background-position-x: 70% !important;
 }
-
+*/
 
 #hero:before {
   content: "";
@@ -244,10 +244,10 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-@media (max-width: 400px) {
+/*@media (max-width: 400px) {
  #hero .hero-container {
   margin-left: 0px !important;
-}
+}*/
 
 
 
